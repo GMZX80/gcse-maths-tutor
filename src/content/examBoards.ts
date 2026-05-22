@@ -24,7 +24,7 @@ export const introductoryExamBoardMappings: ExamBoardMapping[] = [
     ],
     studentNotes: [
       "If your school says OCR, look for J560 on your specification or past paper.",
-      "This lesson is board-neutral, but the first site route keeps OCR as the default because this project started there.",
+      "Use the general lesson first, then choose OCR-style practice when available.",
     ],
   },
   {
