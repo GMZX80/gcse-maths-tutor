@@ -1,4 +1,5 @@
 import type { Lesson } from "../lessonSchema";
+import { introductoryExamBoardMappings } from "../examBoards";
 
 export const introToGcseMaths: Lesson = {
   id: "lesson-000",
@@ -7,18 +8,20 @@ export const introToGcseMaths: Lesson = {
   subtitle:
     "Learn how to approach OCR GCSE Maths questions by spotting the command word, choosing a method, and showing clear working.",
   examBoardSpecReference: {
-    examBoard: "OCR",
+    examBoard: "General GCSE",
     qualification: "GCSE Mathematics",
-    specification: "J560",
+    specification: "Multi-board framework",
     strand: "Course introduction and problem-solving habits",
-    paperContext: "Applies across Foundation and Higher tier calculator and non-calculator papers.",
+    paperContext:
+      "Applies across GCSE Maths routes, with board-specific overlays for OCR, AQA, Pearson Edexcel, Eduqas, WJEC Wales, and CCEA.",
   },
+  examBoardMappings: introductoryExamBoardMappings,
   targetAgeStage: "UK school students aged 14-16 preparing for GCSE Maths",
   learningObjectives: [
     "Understand that GCSE Maths questions test decisions as well as facts.",
     "Use command words such as work out, show that, estimate, and explain to choose a response style.",
     "Follow a repeatable five-step approach for unfamiliar questions.",
-    "Recognise the main OCR GCSE Maths content areas and how this course will be organised.",
+    "Recognise the main GCSE Maths content areas and how this course will organise general lessons with exam-board overlays.",
   ],
   priorKnowledge: [
     "Basic arithmetic with whole numbers.",
@@ -27,7 +30,8 @@ export const introToGcseMaths: Lesson = {
   ],
   explanation: [
     "A GCSE Maths question is often testing two things at once: the topic you know and the decision you make. The trick is to slow down at the start, spot what kind of question it is, then choose a method you can explain clearly.",
-    "That matters for OCR because calculator and non-calculator papers both include problem solving. The same topic can appear in different forms, so this course practises concepts, methods, and exam-style decisions together.",
+    "That matters because all GCSE Maths exam boards expect problem solving, reasoning, and clear communication. The same topic can appear in different forms, so this course practises concepts, methods, and exam-style decisions together.",
+    "Most lessons should teach the core idea once, then show how OCR, AQA, Pearson Edexcel, Eduqas, WJEC Wales, and CCEA describe or assess that idea.",
     "A good first routine is: read the question slowly, underline the command word, choose the maths tool, show clear working, then check whether the answer makes sense.",
   ],
   workedExamples: [
@@ -51,10 +55,14 @@ export const introToGcseMaths: Lesson = {
       feedback: "The command word tells you whether to calculate, show, prove, estimate, compare, or explain.",
     },
     {
-      question: "OCR GCSE Maths questions can test topics on which paper?",
-      options: ["Only the non-calculator paper", "Any paper", "Only Paper 1"],
+      question: "Why are we using exam-board overlays instead of separate lessons for every board?",
+      options: [
+        "Because every board has completely different maths",
+        "Because the core maths is shared, but paper style and specification wording can differ",
+        "Because exam boards do not matter at GCSE",
+      ],
       answerIndex: 1,
-      feedback: "Topics may be assessed in different paper contexts, so mixed practice matters.",
+      feedback: "A shared concept lesson avoids duplication, while board overlays handle spec references and practice style.",
     },
     {
       question: "What does show that usually mean?",
@@ -87,12 +95,14 @@ export const introToGcseMaths: Lesson = {
     "Reward clear mathematical reasoning over unexplained final answers.",
     "For show that questions, the result alone is not enough: students must justify why it is true.",
     "For estimates, accept nearby sensible rounding if the working is consistent.",
+    "Use exam-board overlays to adjust practice wording and marking notes without rewriting the concept lesson.",
   ],
   commonMisconceptions: [
     "Starting calculations before identifying what the question is asking.",
     "Treating show that as if only the final answer matters.",
     "Forgetting to include units or context when the question is a word problem.",
-    "Assuming calculator and non-calculator papers test completely separate topics.",
+    "Assuming every exam board needs a completely separate version of the same concept lesson.",
+    "Assuming board-specific practice is unnecessary just because the core topic is shared.",
   ],
   extensionChallenge: {
     title: "Write your own exam-style prompt",

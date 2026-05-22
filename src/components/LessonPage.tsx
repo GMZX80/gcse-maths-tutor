@@ -1,4 +1,5 @@
 import type { Lesson } from "../content/lessonSchema";
+import { ExamBoardOverlay } from "./ExamBoardOverlay";
 import { QuestionDecoder } from "./QuestionDecoder";
 import { QuickQuiz } from "./QuickQuiz";
 import { SyllabusMap } from "./SyllabusMap";
@@ -72,6 +73,8 @@ export function LessonPage({ lesson }: LessonPageProps) {
           </article>
         </div>
       </section>
+
+      <ExamBoardOverlay mappings={lesson.examBoardMappings} />
 
       <section className="lesson-band split" aria-labelledby="objectives-heading">
         <div className="section-heading">

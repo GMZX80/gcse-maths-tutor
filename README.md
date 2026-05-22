@@ -16,6 +16,7 @@ Each lesson uses a typed schema with:
 
 - title
 - exam board/spec reference
+- exam-board overlays
 - target age/stage
 - learning objectives
 - prior knowledge

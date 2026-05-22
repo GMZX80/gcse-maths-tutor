@@ -241,6 +241,40 @@ button.secondary {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.board-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.board-tab {
+  background: #e9eef2;
+  color: #173244;
+}
+
+.board-tab.active {
+  background: #155e75;
+  color: #ffffff;
+}
+
+.board-panel {
+  background: #ffffff;
+  border: 1px solid rgba(43, 69, 86, 0.13);
+  border-radius: 8px;
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 18px;
+}
+
+.board-panel ul {
+  color: #465867;
+  line-height: 1.6;
+  margin: 0;
+  padding-left: 20px;
+}
+
 .meta-grid article,
 .practice-card {
   background: #ffffff;
@@ -534,7 +568,8 @@ button.secondary {
   .decoder-layout,
   .example-layout,
   .meta-grid,
-  .two-column {
+  .two-column,
+  .board-panel {
     grid-template-columns: 1fr;
   }
 
