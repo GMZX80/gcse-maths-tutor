@@ -6,6 +6,20 @@ export type SpecReference = {
   paperContext: string;
 };
 
+export type ExamBoardId = "aqa" | "pearson-edexcel" | "ocr" | "eduqas" | "wjec-wales" | "ccea";
+
+export type ExamBoardMapping = {
+  boardId: ExamBoardId;
+  boardName: string;
+  qualification: string;
+  specification: string;
+  region: string;
+  routeLabel: string;
+  specFocus: string;
+  assessmentNotes: string[];
+  studentNotes: string[];
+};
+
 export type WorkedExample = {
   title: string;
   question: string;
@@ -33,6 +47,7 @@ export type Lesson = {
   title: string;
   subtitle: string;
   examBoardSpecReference: SpecReference;
+  examBoardMappings: ExamBoardMapping[];
   targetAgeStage: string;
   learningObjectives: string[];
   priorKnowledge: string[];
