@@ -1,6 +1,6 @@
-# OCR GCSE Maths Tutor
+# GCSE Maths Tutor
 
-Interactive GCSE Maths lessons for UK students aged around 14-16, starting with OCR GCSE Mathematics J560.
+Interactive GCSE Maths lessons for UK students aged around 14-16, with exam-board overlays for OCR, AQA, Pearson Edexcel, Eduqas, WJEC Wales, and CCEA.
 
 Live site:
 
@@ -8,7 +8,7 @@ https://gmzx80.github.io/ocr-gcse-maths-tutor/
 
 ## Purpose
 
-This project is a reusable syllabus-and-lesson framework, not just a single web page. Lessons are stored as structured TypeScript data and rendered through shared components so the content can grow into full OCR GCSE Maths coverage and later move into Aplailasain.
+This project is a reusable syllabus-and-lesson framework, not just a single web page. Lessons are stored as structured TypeScript data and rendered through shared components so the content can grow into full GCSE Maths coverage and later move into Aplailasain.
 
 ## Lesson Structure
 

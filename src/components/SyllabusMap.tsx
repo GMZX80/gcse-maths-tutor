@@ -4,7 +4,7 @@ export function SyllabusMap() {
   return (
     <section className="lesson-band" aria-labelledby="map-heading">
       <div className="section-heading">
-        <p className="eyebrow">OCR J560</p>
+        <p className="eyebrow">GCSE Maths</p>
         <h2 id="map-heading">The map of GCSE Maths</h2>
       </div>
       <div className="topic-grid">

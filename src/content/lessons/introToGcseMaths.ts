@@ -6,7 +6,7 @@ export const introToGcseMaths: Lesson = {
   slug: "intro-gcse-maths-toolkit",
   title: "GCSE Maths is a toolkit, not a memory test",
   subtitle:
-    "Learn how to approach OCR GCSE Maths questions by spotting the command word, choosing a method, and showing clear working.",
+    "Learn how to approach GCSE Maths questions by spotting the command word, choosing a method, and showing clear working.",
   examBoardSpecReference: {
     examBoard: "General GCSE",
     qualification: "GCSE Mathematics",
@@ -26,7 +26,7 @@ export const introToGcseMaths: Lesson = {
   priorKnowledge: [
     "Basic arithmetic with whole numbers.",
     "Experience answering short maths questions in school.",
-    "No detailed OCR specification knowledge is needed yet.",
+    "No detailed exam-board specification knowledge is needed yet.",
   ],
   explanation: [
     "A GCSE Maths question is often testing two things at once: the topic you know and the decision you make. The trick is to slow down at the start, spot what kind of question it is, then choose a method you can explain clearly.",

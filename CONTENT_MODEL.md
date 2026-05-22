@@ -13,7 +13,7 @@ Add new lessons to `src/content/lessons/index.ts` so routing, maps, and future s
 Every lesson must follow `src/content/lessonSchema.ts` and include:
 
 - `title`: concise student-facing lesson title.
-- `examBoardSpecReference`: OCR/specification mapping and paper context.
+- `examBoardSpecReference`: general specification mapping and paper context.
 - `examBoardMappings`: board-specific overlays for OCR, AQA, Pearson Edexcel, Eduqas, WJEC Wales, and CCEA where relevant.
 - `targetAgeStage`: intended age/stage, usually UK students aged 14-16 preparing for GCSE Maths.
 - `learningObjectives`: what students should be able to do by the end.
@@ -31,7 +31,7 @@ Every lesson must follow `src/content/lessonSchema.ts` and include:
 - Write for UK school students aged around 14-16.
 - Use direct, calm language. Avoid sounding like a textbook glossary.
 - Keep explanations concrete: show the decision, not just the calculation.
-- Prefer OCR-style phrasing: `work out`, `show that`, `estimate`, `explain`, `prove`, `compare`.
+- Prefer GCSE-style command phrasing: `work out`, `show that`, `estimate`, `explain`, `prove`, `compare`.
 - Teach the shared GCSE concept once, then use exam-board overlays for specification references, paper structure notes, and board-style practice.
 - Make marking notes explicit enough that they could become a teacher-facing or self-marking layer later.
 - Keep each lesson focused. Add another lesson rather than overloading one page.
