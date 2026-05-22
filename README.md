@@ -39,6 +39,12 @@ The reusable schema lives in:
 src/content/lessonSchema.ts
 ```
 
+Authoring guidance lives in:
+
+```text
+CONTENT_MODEL.md
+```
+
 ## Development
 
 ```bash

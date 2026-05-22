@@ -251,11 +251,17 @@ button.secondary {
 
 .meta-grid ul,
 .plain-list,
-.practice-card ul {
+.practice-card ul,
+.guidance-list {
   color: #465867;
   line-height: 1.6;
   margin: 0;
   padding-left: 20px;
+}
+
+.guidance-list {
+  display: grid;
+  gap: 10px;
 }
 
 .section-heading {

@@ -142,6 +142,18 @@ export function LessonPage({ lesson }: LessonPageProps) {
         </div>
       </section>
 
+      <section className="lesson-band" aria-labelledby="marking-heading">
+        <div className="section-heading">
+          <p className="eyebrow">Marking guidance</p>
+          <h2 id="marking-heading">Answers and marking notes</h2>
+        </div>
+        <ul className="guidance-list">
+          {lesson.answersMarkingNotes.map((note) => (
+            <li key={note}>{note}</li>
+          ))}
+        </ul>
+      </section>
+
       <section className="lesson-band two-column" aria-labelledby="misconceptions-heading">
         <div>
           <p className="eyebrow">Watch out</p>
