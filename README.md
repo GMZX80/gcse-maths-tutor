@@ -46,6 +46,12 @@ Authoring guidance lives in:
 CONTENT_MODEL.md
 ```
 
+Exam-board specification source notes live in:
+
+```text
+reference/specifications/SOURCES.md
+```
+
 ## Development
 
 ```bash
