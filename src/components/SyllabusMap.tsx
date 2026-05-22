@@ -10,13 +10,19 @@ export function SyllabusMap() {
       <div className="topic-grid">
         {syllabusAreas.map((area) => (
           <article className="topic-tile" key={area.id}>
-            <h3>{area.title}</h3>
+            <div className="topic-title-row">
+              <h3>{area.title}</h3>
+              <span className={`status-pill ${area.status}`}>{area.status}</span>
+            </div>
             <p>{area.description}</p>
             <ul>
               {area.examples.map((example) => (
                 <li key={example}>{example}</li>
               ))}
             </ul>
+            <a className="topic-link" href={area.route}>
+              {area.status === "available" ? "Open lesson" : "Planned route"}
+            </a>
           </article>
         ))}
       </div>
