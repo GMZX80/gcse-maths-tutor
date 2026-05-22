@@ -4,7 +4,7 @@ Interactive GCSE Maths lessons for UK students aged around 14-16, with exam-boar
 
 Live site:
 
-https://gmzx80.github.io/ocr-gcse-maths-tutor/
+https://gmzx80.github.io/gcse-maths-tutor/
 
 ## Purpose
 
